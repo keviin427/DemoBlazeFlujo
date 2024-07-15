@@ -1,0 +1,17 @@
+### Conclusiones del Proyecto de Automatización de Compras en Demoblaze
+
+1. **Flujo de Trabajo Automatizado Exitosamente**:
+   El flujo de trabajo completo, que incluye la selección de productos, la visualización del carrito, la colocación de la orden y la finalización de la compra, fue automatizado exitosamente utilizando Serenity BDD con Screenplay.
+
+2. **Manejo de Alertas**:
+   Se implementó correctamente el manejo de alertas emergentes que aparecen después de agregar un producto al carrito. Este paso fue crítico para poder continuar con el flujo de trabajo sin interrupciones.
+
+3. **Navegación y Validaciones**:
+   Se añadió una navegación efectiva de regreso a la página principal después de cada adición de producto, lo que permitió que múltiples productos fueran agregados al carrito de manera secuencial.
+
+4. **Ejecutando en Pantalla Completa**:
+   Aunque se intentó ejecutar el navegador en modo de pantalla completa, fue necesario ajustar la configuración para asegurar que todas las interacciones fueran visibles y accesibles durante las pruebas.
+
+5. **Desafíos Encontrados**:
+   - Se encontró un desafío inicial con la compatibilidad de versiones de ChromeDriver y Google Chrome, que fue resuelto actualizando ChromeDriver.
+   - El manejo de alertas emergentes requirió un enfoque específico para no interrumpir el flujo de las pruebas.
